@@ -62,6 +62,8 @@
         <li class="active" data-target="#carousel" data-slide-to="0"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active boat">
@@ -123,6 +125,67 @@
 <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
 <!--image slider ends-->
 <!--home section ends-->
+
+<header>
+    <br><br>
+    <h1 id="title">Kindly fill the below form so that we can get back to you ~</h1>
+</header>
+<form id="survey-form">
+
+    <div class="form-group">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+    </div>
+    <div class="form-group">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+    </div>
+    <div class="form-group">
+        <label for="age" id="number-label">Age</label>
+        <input type="number" name="age" id="number" min="1" max="99" placeholder="Enter Your Age">
+    </div>
+
+    <div class="form-group">
+        <label for="occupation">Choose your area of interest</label>
+        <select name="occupation" id="dropdown">
+            <option selected disabled value>Select</option>
+            <option value="Travelling">Travelling</option>
+            <option value="Tech">Tech</option>
+            <option value="Current affairs">Current affairs</option>
+            <option value="Culture">Culture</option>
+            <option value="Fashion">Fashion</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="rating">Would You Recommend Our Website To an Acquaintance?</label>
+        <div class="radio-group">
+            <input type="radio" name="rating" id="never" value="never"><label for="never"> Never </label>
+        </div>
+        <div class="radio-group">
+            <input type="radio" name="rating" id="maybe" value="maybe"><label for="maybe"> Maybe </label>
+        </div>
+        <div class="radio-group">
+            <input type="radio" name="rating" id="likely" value="likely"><label for="likely"> Likely </label>
+        </div>
+        <div class="radio-group">
+            <input type="radio" name="rating" id="definitely" value="definitely"><label for="definitely">
+                Definitely
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="remark">Tell us how can we improve?</label>
+        <textarea name="remark" id="remark" placeholder="Pls type your valuable feeback here"></textarea>
+    </div>
+
+    <div class="form-group">
+        <button id="submit" type="submit">Submit</button>
+    </div>
+</form>
+</main>
+<br>
 
 
 
