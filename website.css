@@ -237,7 +237,7 @@ header .header-2.header-active{
     min-height:350px;
     background:no-repeat center center scroll;
     background-size:cover;
-    margin-top:78px;
+    margin-top:0px;
   }
   #carousel .carousel-inner .carousel-item{
     transition:-webkit-transform 2s ease;
