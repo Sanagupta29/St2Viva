@@ -65,7 +65,6 @@ html{
 	color: #fff;
 }
 .navbar-toggler {
-	padding: 1px 5px;
 	font-size: 18px;
 	line-height: 0.3;
 }
@@ -215,4 +214,85 @@ header .header-2.header-active{
     position: fixed;
     top:0; left: 0;
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+#carousel .carousel-item.boat{
+    background-image:url("pictures/pic1.jpg");
+  }
+  #carousel .carousel-item.sea{
+    background-image:url("pictures/pic2.jpg");
+  }
+  #carousel .carousel-item.river{
+    background-image:url("pictures/pic3.jpg");
+  }
+  #carousel .carousel-item.abc{
+    background-image:url("pictures/pic4.jpg");
+  }
+  #carousel .carousel-item.def{
+    background-image:url("pictures/pic5.jpg");
+  }
+  #carousel .carousel-item{
+    height:100vh;
+    width:100%;
+    min-height:350px;
+    background:no-repeat center center scroll;
+    background-size:cover;
+    margin-top:78px;
+  }
+  #carousel .carousel-inner .carousel-item{
+    transition:-webkit-transform 2s ease;
+    transition:transform 2s ease;
+    transition:transform 2s ease, -webkit-transform 2s ease;
+  }
+  #carousel .carousel-item .caption{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    color:white;
+    font-size:2rem;
+    animation-duration: 1s;
+    animation-delay: 2s;
+  }
+  #carousel .caption h2{
+    animation-duration: 1s;
+    animation-delay: 2s;
+    font-size:3rem;
+  }
+  #carousel .caption p{
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+  }
+  
+  #carousel .caption a{
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+  }
+  
+  body {
+    margin: 40px 0 40px 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: grey;
+    box-shadow: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 10px 40px 40px 40px;
+    display: block;
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #191516;
+    font-weight: bold;
 }
